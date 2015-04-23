@@ -1,0 +1,20 @@
+<?php  # Script 12.11 - header.html
+// This page begins the HTML header for the admin side.
+
+// Check for a $page_title value.
+if (!isset($page_title)) {
+	$page_title = 'PHP and MySQL for Dynamic Web Sites';
+}
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/2000/REC-xhtml1-20000126/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<title><?php  echo $page_title; ?></title>
+<style type="text/css" media="screen">@import "../includes/layout.css";</style>
+</head>
+<body>
+<div id="Header">Kadion School Site Admin</div>
+<div id="Content">
+<!-- End of Header -->
