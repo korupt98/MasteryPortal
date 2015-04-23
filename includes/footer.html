@@ -1,0 +1,31 @@
+<!-- End of Content -->
+<!--
+</div>
+<div id="Menu">
+<a href="index.php">Home</a><br />
+<?php  # Script 12.2 - footer.html
+// This page ends the HTML header for the site.
+
+// Display links based upon the login status.
+if (isset($_SESSION['user_id']) AND (substr($_SERVER['PHP_SELF'], -10) != 'logout.php')) {
+	echo '<a href="logout.php">Logout</a><br />
+<a href="change_password.php">Change Password</a><br />
+';
+} else {
+	echo '	<a href="register.php">Register</a><br />
+<a href="login.php">Login</a><br />
+<a href="forgot_password.php">Forgot Password</a><br />
+';
+}
+?> 
+	<a href="#">Some 12Page</a><br />
+	<a href="#">Another Page</a><br />
+</div>
+</body>
+</html>
+<?php  // Flush the buffered output to the Web browser.
+//ob_flush();
+?>
+-->
+<p align = "center"><i>Copyright kadion.net 2014 (All rights reserved)</i><br>
+<a href="http://uam.kadion.net/main.php">Back to Main Page</a></p>
