@@ -1,5 +1,5 @@
 <?
-include '../letters_connect.php';// database connection details stored here
+include '../../letters_connect.php';// database connection details stored here
 session_start();
 $currentuser = $_SESSION['currentuser'];
 

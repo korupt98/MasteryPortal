@@ -1,7 +1,7 @@
 <?php 
 header('P3P: CP="CAO PSA OUR"');
-include ("../teachersession.php"); // Connect to the database.
-include ("../letters_connect.php"); // Connect to the database.
+include ("../../teachersession.php"); // Connect to the database.
+include ("../../letters_connect.php"); // Connect to the database.
 
 $page_title = 'UA Maker Mastery Portal Main Page';
 require_once ('includes/config.inc'); 

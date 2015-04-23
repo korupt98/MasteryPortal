@@ -1,6 +1,6 @@
 <?php 
-include '../../letters_connect.php';
-include '../../session.php';//admin session
+include '../../../letters_connect.php';
+include '../../../session.php';//admin session
 
 $page_title = 'Add users';
 

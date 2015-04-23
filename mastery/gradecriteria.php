@@ -1,7 +1,7 @@
 <?php
 
-include '../../letters_connect.php';
-include ("../../teachersession.php");
+include '../../../letters_connect.php';
+include ("../../../teachersession.php");
 
 
 $query1 = "SELECT * FROM gradecriteria where CourseID='$coursename'";

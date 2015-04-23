@@ -1,7 +1,7 @@
 <?php
 
-include '../../letters_connect.php';
-include ("../../teachersession.php"); 
+include '../../../letters_connect.php';
+include ("../../../teachersession.php"); 
 
 if ( !isset($_REQUEST['term']) )
     exit;

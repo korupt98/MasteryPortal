@@ -1,6 +1,6 @@
 <?php 
-include '../../letters_connect.php';
-include ("../../session.php"); 
+include '../../../letters_connect.php';
+include ("../../../session.php"); 
 $userid =$_POST['userid'];
 //encrypt password
 $password=$_POST['password'];

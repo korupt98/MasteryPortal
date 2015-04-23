@@ -1,6 +1,6 @@
 <?php
-include '../../letters_connect.php';
-include ("../../teachersession.php"); 
+include '../../../letters_connect.php';
+include ("../../../teachersession.php"); 
 
 $page_title = 'Import files';
 

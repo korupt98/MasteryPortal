@@ -1,5 +1,5 @@
 <?
-//include ("../session.php"); // Connect to the database.
+//include ("../../session.php"); // Connect to the database.
 session_start();
 $currentuser = $_SESSION['currentuser'];
 

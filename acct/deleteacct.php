@@ -1,6 +1,6 @@
 <?php 
 include ("../../adminsession.php"); // Connect to the database.
-include ("../../letters_connect.php"); // Connect to the database.
+include ("../../../letters_connect.php"); // Connect to the database.
 
 $recordid =$_GET['did'];
 //$today = date('Y-m-d',mktime()+86400); 

@@ -1,6 +1,6 @@
  <?php 
-include ("../../letters_connect.php"); // Connect to the database.
-include ("../../teachersession.php"); // Connect to the database.
+include ("../../../letters_connect.php"); // Connect to the database.
+include ("../../../teachersession.php"); // Connect to the database.
 
 // Set the page title and include the HTML header.
 $page_title = 'Student Progress Report';

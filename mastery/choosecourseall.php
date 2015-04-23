@@ -1,6 +1,6 @@
 <?php 
-include '../../letters_connect.php';
-include ("../../teachersession.php"); 
+include '../../../letters_connect.php';
+include ("../../../teachersession.php"); 
 ?>
 <?php  # Script 12.5 - index.php
 // This is the main page for the site.

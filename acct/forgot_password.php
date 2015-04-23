@@ -3,7 +3,7 @@
 
 // Include the configuration file for error management and such.
 //include ('../letters_connect.php'); 
-include '../../letters_connect.php'; 
+include '../../../letters_connect.php'; 
 
 if (isset($_POST['submit'])) { // Handle the form.
 

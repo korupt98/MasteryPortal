@@ -1,5 +1,5 @@
 <?php 
-include '../letters_connect.php';
+include '../../letters_connect.php';
 
 $tbl_name="users"; // Table name
 

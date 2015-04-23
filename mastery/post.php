@@ -1,6 +1,6 @@
 <?php 
-include '../../letters_connect.php';
-include ("../../teachersession.php"); 
+include '../../../letters_connect.php';
+include ("../../../teachersession.php"); 
 $student =$_POST['people'];
 $studentid =substr($student,0,9);
 if(($studentid == NULL) || (!is_numeric($studentid)) || (strlen($studentid)!=9)) {
