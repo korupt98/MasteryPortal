@@ -44,7 +44,7 @@ include_once ('includes/header.html');
 
 <br>
 
-<img src="./Pics/uamaker2.jpg" alt="UA Maker" /> 
+<img src="./images/uamaker.jpg" alt="UA Maker" /> 
 
 
 </td>
